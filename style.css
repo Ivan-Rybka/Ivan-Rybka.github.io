@@ -245,8 +245,13 @@ img {
 .contacts ul {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     list-style: none;
     padding: 0 40px;
+}
+
+.contacts li {
+    min-width: 200px;
 }
 
 .contacts a {
