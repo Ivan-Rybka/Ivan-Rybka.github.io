@@ -110,7 +110,6 @@ html, body {
 body {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 5%;
     background-color: #48484c;
 }
 
@@ -334,6 +333,9 @@ img {
     }
     body.lock {
         overflow: hidden;
+    }
+    .my_info-text ul {
+        margin: 0;
     }
     .my_info-photo {
         display: none;
