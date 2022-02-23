@@ -340,6 +340,9 @@ img {
     .my_info-photo {
         display: none;
     }
+    .work-text>div, .education-text>div, .cource-text>div, .skills-text>div {
+        padding: 30px 5px;
+    }
 }
 @media screen and (max-width: 900px){
     .my_info-photo {
